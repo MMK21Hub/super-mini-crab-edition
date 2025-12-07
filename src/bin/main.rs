@@ -60,7 +60,7 @@ async fn main(spawner: Spawner) -> ! {
     let _ = spawner;
 
     loop {
-        info!("Hello world!");
+        info!("Woah this is an ESP32 :O");
         Timer::after(Duration::from_secs(1)).await;
     }
 
